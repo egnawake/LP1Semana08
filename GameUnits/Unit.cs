@@ -12,6 +12,7 @@ namespace GameUnits
         // Health deve ser virtual porque unidades diferentes podem ter
         // formulas especificas para calcular os seus pontos de vida.
         public virtual int Health { get; set; }
+        public abstract float Value { get; }
 
         public Unit(int movement, int health)
         {
