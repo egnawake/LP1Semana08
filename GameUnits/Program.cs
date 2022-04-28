@@ -13,6 +13,10 @@ namespace GameUnits
             Console.WriteLine($"Value: {warrior.Value}");
             Console.WriteLine("");
 
+            Console.WriteLine("Warrior as string:");
+            Console.WriteLine(warrior);
+            Console.WriteLine("");
+
             Console.WriteLine("Settler");
             SettlerUnit settler = new SettlerUnit(2, 15);
             settler.Move();
