@@ -1,0 +1,20 @@
+Tipo imutável - tipo de uma variável cujo conteúdo não pode ser alterado
+
+Herança - possibilidade de uma classe reaproveitar comportamento de outra
+e adicionar novo comportamento ou especializar-se
+
+Classe base/superclasse - classe que é estendida numa relação de herança
+
+Classe derivada/subclasse - classe que estende outra numa relação de herança
+
+Keyword is - operador que serve para verificar se o tipo de uma dada variável
+corresponde a uma dada classe (ou uma das suas superclasses)
+
+Keyword as - operador que permite tentar converter o tipo de uma dada variável
+para um tipo mais específico (superclasse para subclasse).
+Se a conversão falhar, o resultado é null
+
+Keyword protected - modificador de acesso. Membros marcados com esta keyword
+são acessíveis dentro da própria classe e classes derivadas
+
+Keyword sealed - classes marcadas com esta keyword são impossíveis de estender
