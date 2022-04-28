@@ -23,6 +23,10 @@ namespace GameUnits
             Console.WriteLine($"Health: {settler.Health}");
             Console.WriteLine($"Value: {settler.Value}");
             Console.WriteLine("");
+
+            Console.WriteLine("Settler as string:");
+            Console.WriteLine(settler);
+            Console.WriteLine("");
         }
     }
 }
