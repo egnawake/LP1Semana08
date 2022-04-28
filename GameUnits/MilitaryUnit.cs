@@ -10,5 +10,10 @@ namespace GameUnits
             AttackPower = power;
             XP = 0;
         }
+
+        public void Attack(Unit u)
+        {
+            Console.WriteLine("Attacking...");
+        }
     }
 }
