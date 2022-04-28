@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassVsStruct", "ClassVsStr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructWithRef", "StructWithRef\StructWithRef.csproj", "{F30220A1-DF83-4658-9EFF-CB116D782AE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGame", "MiniGame\MiniGame.csproj", "{8213C084-B241-45F0-B42F-0C3E34B81724}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F30220A1-DF83-4658-9EFF-CB116D782AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F30220A1-DF83-4658-9EFF-CB116D782AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F30220A1-DF83-4658-9EFF-CB116D782AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8213C084-B241-45F0-B42F-0C3E34B81724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8213C084-B241-45F0-B42F-0C3E34B81724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8213C084-B241-45F0-B42F-0C3E34B81724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8213C084-B241-45F0-B42F-0C3E34B81724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
