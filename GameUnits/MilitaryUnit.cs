@@ -13,7 +13,7 @@ namespace GameUnits
 
         public void Attack(Unit u)
         {
-            Console.WriteLine("Attacking...");
+            Console.WriteLine($"Hit unit for {AttackPower} damage");
         }
     }
 }
