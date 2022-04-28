@@ -19,5 +19,11 @@ namespace GameUnits
         {
             Console.WriteLine($"Hit unit for {AttackPower} damage");
         }
+
+        public override string ToString()
+        {
+            return base.ToString()
+                + $"\nMilitaryUnit (Attack power: {AttackPower}, XP: {XP})";
+        }
     }
 }
