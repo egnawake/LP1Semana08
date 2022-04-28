@@ -4,6 +4,7 @@ namespace GameUnits
     {
         public int AttackPower { get; }
         public int XP { get; set; }
+        public override float Value => AttackPower + XP;
 
         public MilitaryUnit(int movement, int health, int power) : base(movement, health)
         {
