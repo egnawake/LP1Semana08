@@ -13,9 +13,9 @@ namespace GameUnits
             Health = health;
         }
 
-        public void Move(int spaces)
+        public void Move()
         {
-            Console.WriteLine($"Unit has moved {spaces} spaces");
+            Console.WriteLine($"Unit has moved {movement} spaces");
         }
     }
 }
