@@ -2,10 +2,16 @@ using System;
 
 namespace GameUnits
 {
-    public class Unit
+    // Unit deve ser abstrata porque nao tem funcionalidade suficiente para
+    // ser util no jogo por si so.
+    // Serve apenas para definir comportamento que todas as unidades tem.
+    public abstract class Unit
     {
         private int movement;
-        public int Health { get; set; }
+
+        // Health deve ser virtual porque unidades diferentes podem ter
+        // formulas especificas para calcular os seus pontos de vida.
+        public virtual int Health { get; set; }
 
         public Unit(int movement, int health)
         {
